@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="style.scss">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+   <script defer src="main.js"></script>
+   <title>Blog post filter</title>
+</head>
+<body>
+   <nav class="mainNav">
+      <ul class="navList">
+         <li class="navItem"><a href="#" class="navLink">Home</a></li>
+         <li class="navItem"><a href="#" class="navLink">Recipies</a></li>
+         <li class="navItem"><a href="#" class="navLink">Blogs</a></li>
+      </ul>
+   </nav>
+
+   <header class="hero">
+      <div class="hero__desc">
+         <h1>Chef Du Jour</h1>
+         <p>Today, I'm a Chef</p>
+      </div>
+      <a href="#blogPost-header" class="hero__arrow">
+         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-down"><polyline points="6 9 12 15 18 9"></polyline></svg>
+      </a>
+   </header>
+
+   <h2 id="blogPost-header">Rcent Blog Post</h2>
+   <input type="text" id="blogSreach" placeholder="Sreach for a post">
+   <section class="blog-posts">
+      <div class="card-container">
+
+         <article class="card">
+            <p class="card__desc">Lorem ipsum dolor sit, "beef" "burger" "pork" "tag" amet consectetur adipisicing elit. Expedita earum rerum excepturi reprehenderit nihil? Atque odio laborum blanditiis, libero ab quis? Deleniti qui culpa nam!</p>
+            <img src="/images/image1.jpg" alt="" class="card__img" loading="lazy">
+            <div class="card__meta">
+               <a href="#" class="card__meta--title">Cheezy griled burger</a>
+               <div class="card__meta--taglsit">
+                  <a href="#" class="card__meta--taglist-item">beef</a>
+                  <a href="#" class="card__meta--taglist-item">pork</a>
+               </div>
+            </div>
+         </article>
+
+         <article class="card">
+            <p class="card__desc">Lorem ipsum dolor sit, amet  "fish" "plate" "vegeis" "tag" consectetur adipisicing elit. Expedita earum rerum excepturi reprehenderit nihil? Atque odio laborum blanditiis, libero ab quis? Deleniti qui culpa nam!</p>
+            <img src="/images/image2.jpg" alt="" class="card__img" loading="lazy">
+            <div class="card__meta">
+               <a href="#" class="card__meta--title">Somon fille plate</a>
+               <div class="card__meta--taglsit">
+                  <a href="#" class="card__meta--taglist-item">fish</a>
+                  <a href="#" class="card__meta--taglist-item">vegies</a>
+               </div>
+            </div>
+         </article>
+
+         <article class="card">
+            <p class="card__desc">Lorem ipsum dolor sit, amet  "honney" "desert" "breakfast" "tag" consectetur adipisicing elit. Expedita earum rerum excepturi reprehenderit nihil? Atque odio laborum blanditiis, libero ab quis? Deleniti qui culpa nam!</p>
+            <img src="/images/image3.jpg" alt="" class="card__img" loading="lazy">
+            <div class="card__meta">
+               <a href="#" class="card__meta--title">Honney bread</a>
+               <div class="card__meta--taglsit">
+                  <a href="#" class="card__meta--taglist-item">honney</a>
+                  <a href="#" class="card__meta--taglist-item">fruits</a>
+                  <a href="#" class="card__meta--taglist-item">desert</a>
+               </div>
+            </div>
+         </article>
+
+         <article class="card">
+            <p class="card__desc">Lorem ipsum dolor  "cheesecake" "fruits" "desert "breakfast" sit, amet consectetur adipisicing elit. Expedita earum rerum excepturi reprehenderit nihil? Atque odio laborum blanditiis, libero ab quis? Deleniti qui culpa nam!</p>
+            <img src="/images/image4.jpg" alt="" class="card__img" loading="lazy">
+            <div class="card__meta">
+               <a href="#" class="card__meta--title">Raspberry cheesecake</a>
+               <div class="card__meta--taglsit">
+                  <a href="#" class="card__meta--taglist-item">cheesecake</a>
+                  <a href="#" class="card__meta--taglist-item">desert</a>
+                  <a href="#" class="card__meta--taglist-item">fruits</a>
+               </div>
+            </div>
+         </article>
+
+         <article class="card">
+            <p class="card__desc">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Expedita earum rerum excepturi reprehenderit "eggs" "breakfast" "protein" "tag"  nihil? Atque odio laborum blanditiis, libero ab quis? Deleniti qui culpa nam!</p>
+            <img src="/images/image5.jpg" alt="" class="card__img" loading="lazy">
+            <div class="card__meta">
+               <a href="#" class="card__meta--title">Boiled eggs plate</a>
+               <div class="card__meta--taglsit">
+                  <a href="#" class="card__meta--taglist-item">eggs</a>
+                  <a href="#" class="card__meta--taglist-item">breakfast</a>
+                  <a href="#" class="card__meta--taglist-item">protein</a>
+               </div>
+            </div>
+         </article>
+
+         <article class="card">
+            <p class="card__desc">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Expedita earum rerum excepturi "cesar" "breakfast" "boul" "salad"  reprehenderit nihil? Atque odio laborum blanditiis, libero ab quis? Deleniti qui culpa nam!</p>
+            <img src="/images/image6.jpg" alt="" class="card__img" loading="lazy">
+            <div class="card__meta">
+               <a href="#" class="card__meta--title">Cesar salad</a>
+               <div class="card__meta--taglsit">
+                  <a href="#" class="card__meta--taglist-item">salad</a>
+                  <a href="#" class="card__meta--taglist-item">breakfast</a>
+               </div>
+            </div>
+         </article>
+
+         <article class="card">
+            <p class="card__desc">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Expedita earum rerum excepturi  "chicken" "pizza" "protein" "tag" reprehenderit nihil? Atque odio laborum blanditiis, libero ab quis? Deleniti qui culpa nam!</p>
+            <img src="/images/image7.jpg" alt="" class="card__img" loading="lazy">
+            <div class="card__meta">
+               <a href="#" class="card__meta--title">Backed chicken pizza</a>
+               <div class="card__meta--taglsit">
+                  <a href="#" class="card__meta--taglist-item">pizza</a>
+                  <a href="#" class="card__meta--taglist-item">chicken</a>
+               </div>
+            </div>
+         </article>
+
+         <article class="card">
+            <p class="card__desc">Lorem ipsum dolor sit, amet consectetur adipisicing elit.  "pankackes" "breakfast" "desert" "honney" "fruits" Expedita earum rerum excepturi reprehenderit nihil? Atque odio laborum blanditiis, libero ab quis? Deleniti qui culpa nam!</p>
+            <img src="/images/image8.jpg" alt="" class="card__img" loading="lazy">
+            <div class="card__meta">
+               <a href="#" class="card__meta--title">Soften pankackes</a>
+               <div class="card__meta--taglsit">
+                  <a href="#" class="card__meta--taglist-item">pankackes</a>
+                  <a href="#" class="card__meta--taglist-item">breakfast</a>
+                  <a href="#" class="card__meta--taglist-item">desert</a>
+               </div>
+            </div>
+         </article>
+
+         <article class="card">
+            <p class="card__desc">Lorem ipsum dolor sit, amet consectetur "salad" "vegies" "protein" "boul" adipisicing elit. Expedita earum rerum excepturi reprehenderit nihil? Atque odio laborum blanditiis, libero ab quis? Deleniti qui culpa nam!</p>
+            <img src="/images/image9.jpg" alt="" class="card__img" loading="lazy">
+            <div class="card__meta">
+               <a href="#" class="card__meta--title">Salad boul</a>
+               <div class="card__meta--taglsit">
+                  <a href="#" class="card__meta--taglist-item">salad</a>
+                  <a href="#" class="card__meta--taglist-item">protein</a>
+                  <a href="#" class="card__meta--taglist-item">vegeis</a>
+               </div>
+            </div>
+         </article> 
+
+         <article class="card">
+            <p class="card__desc">Lorem ipsum dolor sit, amet chiken consectetur adipisicing elit. Expedita earum rerum excepturi kebab reprehenderit nihil? Atque odio griled laborum blanditiis, libero ab quis? Deleniti qui culpa protein nam! meal</p>
+            <img src="/images/image10.jpg" alt="" class="card__img" loading="lazy">
+            <div class="card__meta">
+               <a href="#" class="card__meta--title">Griled kebab</a>
+               <div class="card__meta--taglsit">
+                  <a href="#" class="card__meta--taglist-item">kebab</a>
+                  <a href="#" class="card__meta--taglist-item">chicken</a>
+               </div>
+            </div>
+         </article>
+
+      </div>
+   </section>
+</body>
+</html>
