@@ -59,7 +59,7 @@ body, html {
 }
 
 .hero {
-   background-image: url('/images/head3.jpg');
+   background-image: url('/images/head3.webp');
    background-size: cover;
    background-position: center center;
    height: 100vh;
@@ -237,6 +237,16 @@ input {
    }
 }
 
+@media screen and (max-width: 500px) {
+   .blog-posts {
+      
+      .card-container {
+         
+         grid-template-columns: 1fr;
+         
+      }
+   }
+}
 // .card__meta--taglist-item {
 //    padding: .5rem .9rem;
 //    background-color: var(--dark);
