@@ -2,7 +2,6 @@
   "name": "blog-post-filter",
   "version": "1.0.0",
   "description": "",
-  "main": "main.js",
   "scripts": {
     "dev": "npx parcel src/index.html",
     "build": "npx parcel build src/index.html"
