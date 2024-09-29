@@ -19,4 +19,4 @@ npm run dev
 npm run build
 ```
 
-![imgage alt](image url)
+![imgage alt](https://github.com/fusion-git/Blog-post-filter/blob/34eb28d2f12417c2c616df0f9f38b11ac51124c4/Screenshot.png)
